@@ -14,7 +14,7 @@ public class CheckUploadPageTest  {
     $$(".HeaderMenu-link").findBy(text("Solutions")).hover();
     $$(".HeaderMenu-dropdown-link").findBy(text("Enterprise")).click();
     $(".enterprise-hero").shouldHave(text("Build like the best"));
-    sleep(5000);
+
     }
 
     @Test
